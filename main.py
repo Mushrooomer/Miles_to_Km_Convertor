@@ -6,8 +6,13 @@ window.minsize(width=500, height=500)
 
 #Label
 
-my_label = tkinter.Label(text="I am a label")
+my_label = tkinter.Label(text="I Am a Label", font=("Arial", 24, "bold"))
 my_label.pack()
+
+import turtle
+
+tim = turtle.Turtle()
+tim.write()
 
 
 
